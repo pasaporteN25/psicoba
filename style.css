@@ -1,0 +1,147 @@
+.container {
+  max-width: 1100px;
+}
+header{
+  background-image: url("assets/fondo1.jpg");
+  background-size: cover;
+  height: 550px;
+  position: relative;
+  height: 100vh;
+}
+.title-color{
+    color: #9575cd;
+}
+.title{
+  color: #9575cd;
+  font-size: 45px;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+}
+.btn{
+  background-color: #9575cd;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.logo{
+  width: 100px;
+}
+@media(max-width:992px){
+  .navbar-nav{
+    background-color: #9575cd;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 20px;
+  }
+}
+nav{
+  z-index: 100;
+}
+nav a{
+  font-size: 20px;
+}
+.title{
+  position: absolute;
+}
+#row-cursos{
+  background-color: #9575cd;
+    height: 100vh;
+}
+.row{
+  margin: 0;
+}
+#row-cursos img{
+  border-radius: 50% 50%;
+  width: 150px;
+  height: 150px;
+}
+
+#row-nosotros{
+  /*padding-top: 100px !important;*/
+  background-image: url('assets/nosotros-fondo2.jpg');
+  background-size: cover;
+  padding-bottom: 100px;
+  height: 100vh;
+}
+
+#row-nosotros img{
+  border-radius: 50% 50%;
+  width: 250px;
+  height: 250px;
+}
+
+#row-nosotros p{
+  font-size: 16px;
+}
+
+#row-datos{
+  background-color: #9575cd;
+  padding-bottom: 100px !important;
+  padding-top: 100px !important;
+  height: 100vh;
+}
+
+.circle{
+  background-color: #c7a4ff;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+#row-servicios{
+  background-image: url('assets/nosotros-fondo2.jpg');
+  background-size: cover;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+  height: 100vh;
+}
+
+#row-servicios img{
+  border-radius: 50% 50%;
+  width: 250px;
+  height: 250px;
+}
+
+#row-servicios p{
+  font-size: 16px;
+}
+
+#row-frase{
+  background-image: url('assets/freud-frase.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 200px !important;
+  padding-bottom: 200px !important;
+  height: 100vh;
+}
+
+#row-contacto{
+  background-image: url('assets/nosotros-fondo2.jpg');
+  background-size: cover;
+  padding-top: 140px !important;
+  padding-bottom: 140px !important;
+  height: 100vh;
+}
+
+.form-control{
+  border-radius: 50px;
+}
+
+footer{
+  background-color: #000;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+  height: 100vh;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+#foot-item span{
+  margin-right: 10px;
+}
